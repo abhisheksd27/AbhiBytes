@@ -29,7 +29,7 @@ aboutme.addEventListener('mouseover', function() {
 
     aboutme.textContent = "Curious about who I am? Look below!";
     aboutme.style.fontSize = "50px";
-    aboutme.style.color="red"
+    aboutme.style.color="white"
 });
 
 aboutme.addEventListener('mouseout', function() {
