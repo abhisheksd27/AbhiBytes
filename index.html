@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AbhiBytes</title>
+    
+      
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-...replace with actual integrity hash..." crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <header class="sticky top-0 z-50 bg-black dark:bg-black-900 shadow-md flex items-center justify-between px-4 py-3 text-white hover:bg-black transition-colors duration-300">
+            <div class="flex items-center space-x-2">
+                <img src="images/logo3.png" alt="logo" class="h-8 sm:h-10 shadow-sm pl-2 sm:pl-4" />
+                <span class="text-xl sm:text-3xl font-semibold italic shadow-sm">Bytes</span>
+            </div>
+            <button id="menuBtn" class="block sm:hidden text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+            <ul id="menuItems" class="hidden sm:flex items-center space-x-4">
+                <li>
+                    <a href="#" class="text-base sm:text-lg font-bold hover:text-red-500 transition-colors duration-300 px-2 py-1 sm:py-2">Home</a>
+                </li>
+                <li>
+                    <a href="#Abouts" class="text-base sm:text-lg font-bold hover:text-red-500 transition-colors duration-300 px-2 py-1 sm:py-2">About</a>
+                </li>
+                <li>
+                    <a href="#educations" class="text-base sm:text-lg font-bold hover:text-red-500 transition-colors duration-300 px-2 py-1 sm:py-2">Education</a>
+                </li>
+                <li>
+                    <a href="#Skills" class="text-base sm:text-lg font-bold hover:text-red-500 transition-colors duration-300 px-2 py-1 sm:py-2">Skills</a>
+                </li>
+                <li>
+                    <a href="#Experiences" class="text-base sm:text-lg font-bold hover:text-red-500 transition-colors duration-300 px-2 py-1 sm:py-2">Experience</a>
+                </li>
+                <li>
+                    <a href="#projects" class="text-base sm:text-lg font-bold hover:text-red-500 transition-colors duration-300 px-2 py-1 sm:py-2">Projects</a>
+                </li>
+                <li>
+                    <a href="#blogs" class="text-base sm:text-lg font-bold hover:text-red-500 transition-colors duration-300 px-2 py-1 sm:py-2">Blogs</a>
+                </li>
+                <li>
+                    <a href="#Contacts" class="text-base sm:text-lg font-bold hover:text-red-500 transition-colors duration-300 px-2 py-1 sm:py-2">Contact</a>
+                </li>
+            </ul>
+        </header>
+
+        <!-- profile -->
+        <section id="Homes">
+            <div class="container min-h-screen min-w-full bg-black text-white py-6 relative flex flex-col lg:flex-row items-center justify-center" id="home">
+                <div class="lg:w-1/2 mb-8 lg:mb-0 text-center lg:text-left lg:pl-16">
+                    <div class="flex flex-col">
+                        <h1 class="text-4xl lg:text-6xl font-bold leading-normal mx-2 hover:text-red-500 name1">Abhishek Shankar</h1>
+                        <p class="text-4xl lg:text-6xl font-bold leading-normal mx-2 hover:text-red-500">Bangalore, India</p>
+                    </div>
+                    <div class="mt-8">
+                        <ul class="flex flex-wrap justify-center lg:justify-start space-x-4">
+                            <li>
+                                <a href="https://github.com/abhisheksd27" class="text-white hover:text-red-500" target="_blank">
+                                    <i class="fab fa-github-square fa-2x fa-icon mx-2"></i>
+                                </a>
+                                
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/abhishekshankar27/" class="text-white hover:text-red-500" target="_blank">
+                                    <i class="fab fa-linkedin fa-2x fa-icon mx-2"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/AbhishekSDevad6" class="text-white hover:text-red-500" target="_blank">
+                                    <i class="fab fa-twitter fa-2x fa-icon mx-2"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/abhishek_.shankar/" class="text-white hover:text-red-500" target="_blank">
+                                    <i class="fab fa-instagram fa-2x fa-icon mx-2"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://abhisheksd27.github.io/Abhishek-LinkTree/" class="text-white hover:text-red-500" target="_blank">
+                                    <i class="fab fa-dribbble fa-2x fa-icon mx-2"></i>
+                                </a>
+                            </li>
+                            
+                        </ul>
+                        <br>
+                        <br>
+
+                        <div class="pl-2 ">
+                            <a href="images/Abhishek-shankar-resume-2024.pdf" download  class="text-white hover:text-red-500 inline-block bg-red border-2 border-white-600 rounded-lg py-2 px-4 transition-colors duration-300 hover:bg-red hover:text-black hover:border-red-600">Download Resume</a>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col lg:flex-row lg:w-1/2 items-center justify-center">
+                    <img src="images/pngwing.com.png" class="w-full lg:w-1/3 max-w-xs lg:max-w-none mb-8 lg:mb-0 lg:absolute bottom-20 right-2 move-on-hover mx-2">
+                </div>
+            </div>
+        </section>
+        
+        
+
+
+        <!-- About -->
+
+        <section id="Abouts">
+            <div class="container min-h-screen min-w-full bg-black text-white px-4 sm:px-8 md:px-16 lg:px-28 py-6 relative" id="home">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="dark:bg-gray-800 dark:text-gray-50 border border-white-600 rounded-lg overflow-hidden dark:bg-gray-900">
+                    <div class="container grid grid-cols-12 mx-auto dark:bg-gray-900">
+                        <div class="bg-no-repeat bg-cover dark:bg-gray-700 col-span-full lg:col-span-4 rounded-lg hover:transform hover:translate-x-1 hover:translate-y-1 transition duration-300 ease-in-out" id="imageDiv" style="background-image: url('images/myphoto.jpg'); background-position: center center; background-blend-mode: multiply; background-size: cover;">
+                        </div>
+                        <div class="flex flex-col p-6 sm:p-10 md:p-12 lg:p-14 col-span-full lg:col-span-8" id="textDiv">
+                            <h2 class="text-3xl sm:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 text-center lg:text-left move-on-hover AboutMe">About Me</h2>
+                            <h1 class="text-xl sm:text-3xl lg:text-4xl font-semibold mb-4 sm:mb-6 move-on-hover">Hi, I'm Abhishek Shankar</h1>
+                            <p class="text-base sm:text-lg lg:text-xl mb-4 sm:mb-6 move-on-hover">As a final year student at CMR Institute of Technology 🎓, specializing in Information Science and Engineering, I excel in a variety of technologies. Proficient in the MERN stack (MongoDB, Express.js, React.js, Node.js) 💻, I craft dynamic and scalable web applications. With Django, I harness Python's power 🐍 to create secure and efficient web solutions. Deeply passionate about machine learning 🤖,I ensure the development of efficient and optimized code. Let's innovate together! ✨</p>
+                            <div class="flex flex-col space-y-2 sm:space-y-4 lg:space-y-2 move-on-hover">
+                                <!-- <div class="flex items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4 sm:w-5 sm:h-5 lg:w-5 lg:h-5 dark:text-gray-400 move-on-hover">
+                                        <path fill-rule="evenodd" d="M13 7H7a1 1 0 000 2h6a1 1 0 100-2zM8 11h4a1 1 0 100-2H8a1 1 0 100 2z" clip-rule="evenodd"></path>
+                                    </svg>
+                                    <span class="text-sm sm:text-base lg:text-base move-on-hover">Web Developer</span>
+                                </div> -->
+                                <div class="flex items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4 sm:w-5 sm:h-5 lg:w-5 lg:h-5 dark:text-gray-400 move-on-hover">
+                                        <path fill-rule="evenodd" d="M13 7H7a1 1 0 000 2h6a1 1 0 100-2zM8 11h4a1 1 0 100-2H8a1 1 0 100 2z" clip-rule="evenodd"></path>
+                                    </svg>
+                                    <span class="text-sm sm:text-base lg:text-base move-on-hover">Location: Bangalore, India</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4 sm:w-5 sm:h-5 lg:w-5 lg:h-5 dark:text-gray-400 move-on-hover">
+                                        <path fill-rule="evenodd" d="M13 7H7a1 1 0 000 2h6a1 1 0 100-2zM8 11h4a1 1 0 100-2H8a1 1 0 100 2z" clip-rule="evenodd"></path>
+                                    </svg>
+                                    <span class="text-sm sm:text-base lg:text-base move-on-hover">Email: abhibytes007@gmail.com</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4 sm:w-5 sm:h-5 lg:w-5 lg:h-5 dark:text-gray-400 move-on-hover">
+                                        <path fill-rule="evenodd" d="M13 7H7a1 1 0 000 2h6a1 1 0 100-2zM8 11h4a1 1 0 100-2H8a1 1 0 100 2z" clip-rule="evenodd"></path>
+                                    </svg>
+                                    <span class="text-sm sm:text-base lg:text-base move-on-hover">Phone: +91 7338006503</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <!-- education -->
+        <section id="educations">
+            <div class="container min-h-screen min-w-full bg-black text-white px-4 sm:px-8 md:px-16 lg:px-28 py-6 relative" id="home">
+                
+                <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+                
+                <section class="dark:bg-gray-800 dark:text-gray-100 border-white-600 rounded-xl border dark:bg-gray-900">
+                    <div class="container max-w-5xl px-4 py-12 mx-auto border-white-600 flex flex-col items-center"> 
+                        <h2 class="text-5xl font-semibold mb-8 move-on-hover">Education</h2> 
+                        <div class="grid gap-4 mx-4 sm:grid-cols-12">
+                            <div class="col-span-12 sm:col-span-3">
+                                <div class="text-center sm:text-left mb-14 before:block before:w-24 before:h-3 before:mb-5 before:rounded-md before:mx-auto sm:before:mx-0 before:dark:bg-violet-400 move-on-hover">
+                                    <h3 class="text-3xl font-semibold move-on-hover">Abhishek</h3>
+                                    <span class="text-sm font-bold tracki uppercase dark:text-gray-400 move-on-hover">Bengalore, India</span>
+                                </div>
+                            </div>
+                            <div class="relative col-span-12 px-4 space-y-6 sm:col-span-9">
+                                <div class="col-span-12 space-y-12 relative px-4 sm:col-span-8 sm:space-y-8 sm:before:absolute sm:before:top-2 sm:before:bottom-0 sm:before:w-0.5 sm:before:-left-3 before:dark:bg-gray-700">
+                                    <div class="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:dark:bg-violet-400">
+                                        <h3 class="text-xl font-semibold tracki move-on-hover">CMR Institute of Technology, Bengalore</h3>
+                                        <time class="text-xs tracki uppercase dark:text-gray-400 move-on-hover">2020-2024</time>
+                                        <p class="mt-3 move-on-hover">B.E in Information Science and Engineering (8.39 cgpa)</p>
+                                    </div>
+                                    <div class="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:dark:bg-violet-400">
+                                        <h3 class="text-xl font-semibold tracki move-on-hover">R N Shetty PU college, Kundapura</h3>
+                                        <time class="text-xs tracki uppercase dark:text-gray-400 move-on-hover">2018-2020</time>
+                                        <p class="mt-3 move-on-hover">PCMB (83.5 %)</p>
+                                    </div>
+                                    <div class="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:dark:bg-violet-400">
+                                        <h3 class="text-xl font-semibold tracki move-on-hover">Govt High School, Alur</h3>
+                                        <time class="text-xs tracki uppercase dark:text-gray-400 move-on-hover">2018</time>
+                                        <p class="mt-3 move-on-hover">SSLC (93.12 %)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+        
+        
+    
+    
+
+    <!-- skills -->
+    <section id="Skills">
+        <div class="container min-h-screen min-w-full bg-black text-white px-4 sm:px-8 md:px-16 lg:px-28 py-6 relative" id="home">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <section id="experience" class="experience py-16 border-2 border-white-600 rounded-lg dark:bg-gray-900 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div class="container mx-auto">
+                    <div class="section-heading text-center mb-10 move-on-hover">
+                        <h2 class="text-3xl font-bold text-gray-800 dark:text-white move-on-hover">Skills</h2>
+                    </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+                        <div class="single-skill-content">
+                            <div class="barWrapper">
+                                <span class="progressText text-gray-800 dark:text-white">Python</span>
+                                <div class="single-progress-txt">
+                                    <div class="progress bg-gray-300 dark:bg-gray-700 rounded-md">
+                                        <div class="progress-bar bg-green-500 rounded-md" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-skill-content">
+                            <div class="barWrapper">
+                                <span class="progressText text-gray-800 dark:text-white">HTML & CSS</span>
+                                <div class="single-progress-txt">
+                                    <div class="progress bg-gray-300 dark:bg-gray-700 rounded-md">
+                                        <div class="progress-bar bg-yellow-500 rounded-md" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-skill-content">
+                            <div class="barWrapper">
+                                <span class="progressText text-gray-800 dark:text-white">JavaScript</span>
+                                <div class="single-progress-txt">
+                                    <div class="progress bg-gray-300 dark:bg-gray-700 rounded-md">
+                                        <div class="progress-bar bg-blue-500 rounded-md" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-skill-content">
+                            <div class="barWrapper">
+                                <span class="progressText text-gray-800 dark:text-white">C & C++</span>
+                                <div class="single-progress-txt">
+                                    <div class="progress bg-gray-300 dark:bg-gray-700 rounded-md">
+                                        <div class="progress-bar bg-purple-500 rounded-md" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-skill-content">
+                            <div class="barWrapper">
+                                <span class="progressText text-gray-800 dark:text-white">Django</span>
+                                <div class="single-progress-txt">
+                                    <div class="progress bg-gray-300 dark:bg-gray-700 rounded-md">
+                                        <div class="progress-bar bg-indigo-500 rounded-md" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-skill-content">
+                            <div class="barWrapper">
+                                <span class="progressText text-gray-800 dark:text-white">React</span>
+                                <div class="single-progress-txt">
+                                    <div class="progress bg-gray-300 dark:bg-gray-700 rounded-md">
+                                        <div class="progress-bar bg-pink-500 rounded-md" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-skill-content">
+                            <div class="barWrapper">
+                                <span class="progressText text-gray-800 dark:text-white">MongoDB</span>
+                                <div class="single-progress-txt">
+                                    <div class="progress bg-gray-300 dark:bg-gray-700 rounded-md">
+                                        <div class="progress-bar bg-orange-500 rounded-md" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-skill-content">
+                            <div class="barWrapper">
+                                <span class="progressText text-gray-800 dark:text-white">MySQL</span>
+                                <div class="single-progress-txt">
+                                    <div class="progress bg-gray-300 dark:bg-gray-700 rounded-md">
+                                        <div class="progress-bar bg-red-500 rounded-md" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-skill-content">
+                            <div class="barWrapper">
+                                <span class="progressText text-gray-800 dark:text-white">PostgreSQL</span>
+                                <div class="single-progress-txt">
+                                    <div class="progress bg-gray-300 dark:bg-gray-700 rounded-md">
+                                        <div class="progress-bar bg-blue-900 rounded-md" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-skill-content">
+                            <div class="barWrapper">
+                                <span class="progressText text-gray-800 dark:text-white">Tailwind CSS</span>
+                                <div class="single-progress-txt">
+                                    <div class="progress bg-gray-300 dark:bg-gray-700 rounded-md">
+                                        <div class="progress-bar bg-yellow-900 rounded-md" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-skill-content">
+                            <div class="barWrapper">
+                                <span class="progressText text-gray-800 dark:text-white">Bootstrap 5</span>
+                                <div class="single-progress-txt">
+                                    <div class="progress bg-gray-300 dark:bg-gray-700 rounded-md">
+                                        <div class="progress-bar bg-purple-900 rounded-md" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-skill-content">
+                            <div class="barWrapper">
+                                <span class="progressText text-gray-800 dark:text-white">Git & GitHub</span>
+                                <div class="single-progress-txt">
+                                    <div class="progress bg-gray-300 dark:bg-gray-700 rounded-md">
+                                        <div class="progress-bar bg-green-700 rounded-md" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-skill-content">
+                            <div class="barWrapper">
+                                <span class="progressText text-gray-800 dark:text-white">VS Code</span>
+                                <div class="single-progress-txt">
+                                    <div class="progress bg-gray-300 dark:bg-gray-700 rounded-md">
+                                        <div class="progress-bar bg-yellow-700 rounded-md" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-skill-content">
+                            <div class="barWrapper">
+                                <span class="progressText text-gray-800 dark:text-white">PyCharm</span>
+                                <div class="single-progress-txt">
+                                    <div class="progress bg-gray-300 dark:bg-gray-700 rounded-md">
+                                        <div class="progress-bar bg-blue-800 rounded-md" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-skill-content">
+                            <div class="barWrapper">
+                                <span class="progressText text-gray-800 dark:text-white">Figma</span>
+                                <div class="single-progress-txt">
+                                    <div class="progress bg-gray-300 dark:bg-gray-700 rounded-md">
+                                        <div class="progress-bar bg-pink-800 rounded-md" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-skill-content">
+                            <div class="barWrapper">
+                                <span class="progressText text-gray-800 dark:text-white">Canva</span>
+                                <div class="single-progress-txt">
+                                    <div class="progress bg-gray-300 dark:bg-gray-700 rounded-md">
+                                        <div class="progress-bar bg-red-800 rounded-md" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-skill-content">
+                            <div class="barWrapper">
+                                <span class="progressText text-gray-800 dark:text-white">NumPy</span>
+                                <div class="single-progress-txt">
+                                    <div class="progress bg-gray-300 dark:bg-gray-700 rounded-md">
+                                        <div class="progress-bar bg-indigo-800 rounded-md" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-skill-content">
+                            <div class="barWrapper">
+                                <span class="progressText text-gray-800 dark:text-white">Pandas</span>
+                                <div class="single-progress-txt">
+                                    <div class="progress bg-gray-300 dark:bg-gray-700 rounded-md">
+                                        <div class="progress-bar bg-yellow-800 rounded-md" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-skill-content">
+                            <div class="barWrapper">
+                                <span class="progressText text-gray-800 dark:text-white">Matplotlib</span>
+                                <div class="single-progress-txt">
+                                    <div class="progress bg-gray-300 dark:bg-gray-700 rounded-md">
+                                        <div class="progress-bar bg-gray-800 rounded-md" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-skill-content">
+                            <div class="barWrapper">
+                                <span class="progressText text-gray-800 dark:text-white">Docker</span>
+                                <div class="single-progress-txt">
+                                    <div class="progress bg-gray-300 dark:bg-gray-700 rounded-md">
+                                        <div class="progress-bar bg-orange-800 rounded-md" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+    
+    
+
+    <!-- experience -->
+    <section id="Experiences">
+        <div class="container min-h-screen min-w-full bg-black text-white px-4 sm:px-8 md:px-16 lg:px-28 py-6 relative" id="home">
+    
+          
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+      
+            <section id="experience" class="experience py-16 border-2 border-white-600 rounded-lg dark:bg-gray-900 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div class="section-heading text-center mb-8 move-on-hover">
+                    <h2 class="text-3xl font-bold move-on-hover">Experience</h2>
+                </div>
+                <div class="container mx-auto">
+                    <div class="experience-content">
+                        <div class="main-timeline">
+                            <ul class="list-none">
+                                <li class="mb-8">
+                                    <div class="single-timeline-box flex flex-col md:flex-row shadow-lg hover:shadow-xl transition-shadow duration-300">
+                                        <div class="md:w-1/2 pr-4">
+                                            <div class="experience-time text-center md:text-right mb-4 md:mb-0 move-on-hover">
+                                                <h2 class="text-2xl font-bold">2024-Jan</h2>
+                                                <h3 class="text-xl font-semibold">Full Stack Intern</h3>
+                                            </div>
+                                        </div>
+                                        <div class="md:w-1/2 pl-4">
+                                            <div class="timeline">
+                                                <div class="timeline-content move-on-hover">
+                                                    <h4 class="title text-lg font-semibold flex items-center">
+                                                        <span class="mr-2"><i class="fa fa-circle text-xs" aria-hidden="true"></i></span>
+                                                        Webstack Academy<br>India
+                                                    </h4>
+                                                    
+                                                    <p class="description text-gray-400">
+                                                        During my internship at WebStack Academy, Ive honed my skills in API development, specifically focusing on
+backend-frontend integration. This involved configuring endpoints, managing HTTP requests, and addressing
+integration challenges, showcasing my problem-solving abilities in software development.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="mb-8">
+                                    <div class="single-timeline-box flex flex-col md:flex-row shadow-lg hover:shadow-xl transition-shadow duration-300">
+                                        <div class="md:w-1/2 pr-4">
+                                            <div class="experience-time text-center md:text-right mb-4 md:mb-0 move-on-hover">
+                                                <h2 class="text-2xl font-bold">2024 - Feb</h2>
+                                                <h3 class="text-xl font-semibold">Machine Learning Intern (Research Based)</h3>
+                                            </div>
+                                        </div>
+                                        <div class="md:w-1/2 pl-4">
+                                            <div class="timeline">
+                                                <div class="timeline-content move-on-hover">
+                                                    <h4 class="title text-lg font-semibold flex items-center">
+                                                        <span class="mr-2"><i class="fa fa-circle text-xs" aria-hidden="true"></i></span>
+                                                        Varcons Technologies<br>India
+                                                    </h4>
+                                                    
+                                                    <p class="description text-gray-400">
+                                                        During my internship at Varcons Technologies, Ive immersed myself in machine learning, emphasizing hands-on
+implementation and problem-solving. Ive become proficient in utilizing frameworks like NumPy, Pandas, and
+Matplotlib, mastering data cleaning methodologies and implementing algorithms including KNN, Decision Trees,
+and Gaussian Naive Bayes.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!--  -->
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+        </div>
+    </section>
+
+    <!-- projects -->
+    <section id="projects">
+        <div class="container min-h-screen min-w-full bg-black text-white px-4 sm:px-8 md:px-16 lg:px-28 py-6 relative" id="home">
+    
+            <br>
+            <br>
+            <br>
+            <br>
+           
+            <div class="bg-white dark:bg-gray-900 dark:dark:bg-gray-800 dark:dark:text-gray-50 border-white-600 border-2 rounded-md dark:bg-gray-900">
+                <div class="container grid grid-cols-1 md:grid-cols-12 gap-6 mx-auto dark:bg-gray-900">
+                    <div class="md:flex md:col-span-6 bg-no-repeat bg-cover lg:h-auto" style="background-image: url('bew.jpg'); background-position: center center; background-blend-mode: multiply; background-size: cover;">
+                        <div class="flex flex-col justify-center p-8 py-12 text-center md:text-left move-on-hover">
+                          
+                            <h1 class="py-4 text-5xl font-bold move-on-hover">Projects</h1>
+                            <p class="pb-6 move-on-hover">"Here, you can find the important projects I have completed. For further information, please click the link below."</p>
+                            
+                            <a href="https://github.com/abhisheksd27" class="text-white hover:text-gray-300 items-center">
+                                <i class="fab fa-github-square fa-2x fa-icon mx-5"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="md:col-span-6 divide-y lg:p-10 dark:dark:divide-gray-700">
+                        <div class="p-6 space-y-6 md:p-0 md:space-y-2">
+                            <div class="space-y-2 move-on-hover">
+                                <span class="move-on-hover">Feb June</span>
+                                <h1 class="text-3xl font-bold move-on-hover">Authentication App using react</h1>
+                                <p>•The objective of this project is to develop a reliable authentication application utilizing React for the frontend, MongoDB for the database, and Google Sign-In for streamlined authentication. <br>• This application will provide user registration and login capabilities via email and password, along with the provision for users to log in using their Google accounts. <br> • Furthermore, the project structure will be designed for reusability, facilitating its utilization as a template for future authentication projects.</p>
+                                <a rel="noopener noreferrer" href="https://github.com/abhisheksd27/Authentication-MERN-project" class="inline-flex items-center py-2 space-x-2 text-sm dark:dark:text-violet-400 move-on-hover " target="_blank">
+                                    <span>Github link</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4">
+                                        <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                         
+                            
+                        </div>
+                        <div class="p-6 space-y-6 md:p-0 md:space-y-2">
+                            <div class="space-y-2 move-on-hover">
+                                <span class="move-on-hover">Jan 2024</span>
+                                <h1 class="text-3xl font-bold move-on-hover">Route planning and location Management</h1>
+                                <p>• Created a web application using Django and Google Maps APIs to deliver a secure and userfriendly experience for
+                                    personalized route planning and location <management class="br"></management>
+                                    • The app includes features such as reCAPTCHA-protected sign-ups, predictive entry for address updates, and
+                                    supports customizable multi-waypoint routes on dynamic Google Maps.
+                                    </p>
+                                <a rel="noopener noreferrer" href="https://github.com/abhisheksd27/django-google-map-api-project" class="inline-flex items-center py-2 space-x-2 text-sm dark:dark:text-violet-400 move-on-hover" target="_blank">
+                                    <span>Github link</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4">
+                                        <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                           
+                            
+                        </div>
+                        <div class="p-6 space-y-6 md:p-0 md:space-y-2">
+                            <div class="space-y-2 move-on-hover">
+                                <span class="move-on-hover">Feb 2024</span>
+                                <h1 class="text-3xl font-bold move-on-hover">Chatbot using OpenAI API</h1>
+                                <p>• Built a web-based chatbot using OpenAIs API for dynamic conversations and informative responses
+                                   <br> • Implemented secure registration/authentication protocols for user privacy and developed a robust database system
+                                    to store search histories, enabling personalized experiences.</p>
+                                <a rel="noopener noreferrer" href="https://github.com/abhisheksd27/chatgpt-open-api-project" class="inline-flex items-center py-2 space-x-2 text-sm dark:dark:text-violet-400 move-on-hover" target="_blank">
+                                    <span>Github link</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4">
+                                        <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                           
+                            
+                        </div>
+                        
+                        <!--  -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Blogs -->
+    <section id="blogs">
+        <div class="container min-h-screen min-w-full bg-black text-white px-4 sm:px-8 md:px-16 lg:px-28 py-6 relative" id="home">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <section class="bg-white dark:bg-gray-900 border-2 rounded-md border-white-600 shadow-lg hover:shadow-xl transition-shadow duration-600 dark:bg-gray-900 px-4 py-6 md:px-8 md:py-10">
+                <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
+                    <div class="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8 move-on-hover">
+                        <h2 class="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white move-on-hover">Blogs</h2>
+                        <p class="font-light text-gray-500 sm:text-xl dark:text-gray-200 move-on-hover">"Here, I deliver the freshest tech updates daily."</p>
+                    </div>
+                    <div class="grid gap-8 lg:grid-cols-2 ">
+                        <article class="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 hover:shadow-xl transition-shadow duration-300 move-on-hover">
+                            <div class="flex justify-between items-center mb-5 text-gray-500">
+                                <!-- <span class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
+                                    <svg class="mr-1 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2 6a2 2 0 012-2h6a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM14.553 7.106A1 1 0 0014 8v4a1 1 0 00.553.894l2 1A1 1 0 0018 13V7a1 1 0 00-1.447-.894l-2 1z"></path></svg>
+                                    Tutorial
+                                </span> -->
+                            </div>
+                            <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white move-on-hover"><a href="https://www.waterlooedc.ca/blog/darwin-ai-artificial-intelligence-industries">DarwinAI is bringing artificial intelligence
+                                to new industries</a></h2>
+                            <p class="mb-5 font-light text-gray-500 dark:text-gray-200 move-on-hover">The company is a spinoff from research at the University of Waterloo, where Wong is an Associate Professor in Systems Design Engineering and a Canada Research Chair working in the field of artificial intelligence (AI). He and his collaborators wanted to help industry partners who struggled with the complexity of building compact, efficient and explainable AI solutions that can be used in a wide variety of applications.</p>
+                            <div class="flex justify-between items-center">
+                                <div class="flex items-center space-x-4">
+                                    <img class="w-7 h-7 rounded-full move-on-hover" src="images/blog.jpeg" alt="Jese Leos avatar" />
+                                    <span class="font-medium dark:text-white move-on-hover">
+                                        WATERLOOEDC
+                                    </span>
+                                </div>
+                                <a href="https://www.waterlooedc.ca/blog/darwin-ai-artificial-intelligence-industries" class="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline move-on-hover">
+                                    Read more
+                                    <svg class="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </div>
+                        </article>
+                        <article class="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 hover:shadow-xl transition-shadow duration-300 move-on-hover">
+                            <div class="flex justify-between items-center mb-5 text-gray-500">
+                                <!-- <span class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
+                                    <svg class="mr-1 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2 6a2 2 0 012-2h6a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM14.553 7.106A1 1 0 0014 8v4a1 1 0 00.553.894l2 1A1 1 0 0018 13V7a1 1 0 00-1.447-.894l-2 1z"></path></svg>
+                                    Tutorial
+                                </span> -->
+                            </div>
+                            <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white move-on-hover"><a href="https://www.uipath.com/blog/ai/ai-at-work-turning-ai-potential-into-real-results">AI at work: Turning AI’s potential into real results</a></h2>
+                            <p class="mb-5 font-light text-gray-500 dark:text-gray-400 move-on-hover">“Speculation about the consequences of AI—for jobs, productivity and quality of life—is at fever pitch. The technology is awe-inspiring. And yet AI’s economic impact will be muted unless millions of firms beyond tech centers like Silicon Valley adopt it. That would mean far more than using the occasional chatbot.”</p>
+                            <div class="flex justify-between items-center">
+                                <div class="flex items-center space-x-4">
+                                    <img class="w-7 h-7 rounded-full move-on-hover" src="images/blog.jpeg" alt="Jese Leos avatar" />
+                                    <span class="font-medium dark:text-white move-on-hover">
+                                        
+Bobby Patrick
+
+                                    </span>
+                                </div>
+                                <a href="https://www.uipath.com/blog/ai/ai-at-work-turning-ai-potential-into-real-results" class="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline move-on-hover">
+                                    Read more
+                                    <svg class="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+    
+        </div>
+    </section>
+
+    <!-- contacts -->
+
+    <section id="Contacts">
+        <div class="container min-h-screen min-w-full bg-black text-white px-4 md:px-8 py-6 relative" id="home">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="grid max-w-screen-xl grid-cols-1 gap-8 px-4 md:px-8 py-16 mx-auto border-2 border-white-600 rounded-md dark:bg-gray-900 rounded-lg md:grid-cols-2 lg:px-16 xl:px-32 dark:bg-gray-800 dark:text-gray-100">
+                <div class="flex flex-col justify-between">
+                    <div class="space-y-2">
+                        <h2 class="text-3xl md:text-4xl font-bold leading-lg lg:text-5xl move-on-hover">Let's talk!</h2>
+                        <div class="dark:text-gray-400 move-on-hover">"Anything you want to say, please drop a message"</div>
+                    </div>
+                    <img src="images/pngwing.com.png" alt="" class="p-6 h-60 md:h-80 object-contain mx-auto move-on-hover"> <!-- Reduced height to h-60 and md:h-80 -->
+                </div>
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="   Your Name" required>
+                    <input type="email" name="Email" placeholder="   Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="   Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                    <span id="msg"></span>
+                  </form>
+                  
+                  
+                
+            </div>
+    
+            <p class="text-3xl md:text-4xl font-bold text-center mt-8 dark:text-white-400 hover:text-red-500 shadow-lg move-on-hover">Thank you for reaching out!</p>
+    
+        </div>
+    </section>
+
+    
+
+    <footer class="bg-black  shadow m-0 dark:bg-black-800">
+        <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:flex-col md:items-center md:justify-center">
+            <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+                © 2023 <a href="images/logo3.png" class="hover:underline">AbhiBytes</a>. All Rights Reserved.
+            </span>
+        </div>
+        
+    </footer>
+
+
+</section>
+
+    <script src="script.js"></script>
+</body>
+</html>
