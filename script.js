@@ -13,7 +13,7 @@ let originalText = nameElement.textContent;
 nameElement.addEventListener('mouseover', function() {
 
     nameElement.textContent = "AbhiBytes";
-});
+});  
 
 nameElement.addEventListener('mouseout', function() {
     nameElement.textContent = originalText;
