@@ -14,7 +14,15 @@
     
     
 }
+.social-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
 
+.social-links li {
+    margin-right: 10px; /* Adjust as needed */
+}
 @media (max-width: 639px) {
     #menuItems {
         display: none;
